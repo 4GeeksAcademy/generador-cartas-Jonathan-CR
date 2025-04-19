@@ -1,5 +1,34 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: green;
+}
+
+.carta {
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icono-superior, .icono-inferior {
+    font-size: 72px;
+}
+
+.numero {
+    font-size: 120px;
+    font-weight: bold;
 }
